@@ -1,0 +1,44 @@
+{
+  "name": "api-imo-msk-ru-future",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "generateTypings": "yarn strapi ts:generate-types --verbose #optional flag"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@localazy/strapi-plugin": "^0.1.12",
+    "@notum-cz/strapi-plugin-record-locking": "^0.3.0",
+    "@palmabit/strapi-app-version": "^1.1.0",
+    "@retikolo/drag-drop-content-types": "^1.2.1",
+    "@strapi/plugin-color-picker": "^4.5.5",
+    "@strapi/plugin-graphql": "^4.5.5",
+    "@strapi/plugin-i18n": "4.5.5",
+    "@strapi/plugin-seo": "^1.7.7",
+    "@strapi/plugin-users-permissions": "4.5.5",
+    "@strapi/provider-upload-cloudinary": "^4.5.5",
+    "@strapi/strapi": "4.5.5",
+    "pg": "8.6.0",
+    "strapi-google-translator": "^1.0.7",
+    "strapi-plugin-duplicate-button": "^1.0.4",
+    "strapi-plugin-notes": "^1.0.1",
+    "strapi-plugin-publisher": "^1.1.4",
+    "strapi-plugin-todo": "^0.0.9"
+  },
+  "author": {
+    "name": "70-7h3-m00n"
+  },
+  "strapi": {
+    "uuid": "7724d9cd-2d0b-4830-a0fc-636dcb58c36e"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

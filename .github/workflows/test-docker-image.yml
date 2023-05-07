@@ -1,4 +1,4 @@
-name: test-new-api-imo-msk-ru
+name: test-api-imo-msk-ru-new
 
 on:
   push:
@@ -29,6 +29,6 @@ jobs:
           file: ./Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/test-new-api-imo-msk-ru:${{ env.GITHUB_SHA_CUSTOMIZE }}
-          cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/test-new-api-imo-msk-ru:buildcache
-          cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/test-new-api-imo-msk-ru:buildcache,mode=max
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/test-api-imo-msk-ru-new:${{ env.GITHUB_SHA_CUSTOMIZE }}
+          cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/test-api-imo-msk-ru-new:buildcache
+          cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/test-api-imo-msk-ru-new:buildcache,mode=max

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_list_texts",
+  "info": {
+    "displayName": "ListText"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_list_marndowns",
+  "info": {
+    "displayName": "listMarndown"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

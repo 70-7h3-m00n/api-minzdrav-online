@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_shared_training_contents",
+  "info": {
+    "displayName": "TrainingContent"
+  },
+  "options": {},
+  "attributes": {
+    "syllabusRetraining": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.syllabus"
+    },
+    "syllabusQualifications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.syllabus"
+    },
+    "listenersRetraining": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-marndown"
+    },
+    "listenersQualifications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-marndown"
+    },
+    "admissionQualifications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-marndown"
+    },
+    "admissionRetraining": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-marndown"
+    },
+    "IssuedDocumentsQualifications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-markdown"
+    },
+    "IssuedDocumentsRetraining": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-markdown"
+    }
+  }
+}

@@ -10,8 +10,12 @@
     "strapi": "strapi",
     "generateTypings": "yarn strapi ts:generate-types --verbose #optional flag"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@gtomato/ckeditor5-strapi-upload-plugin": "^1.0.0"
+  },
   "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
+    "@ckeditor/ckeditor5-markdown-gfm": "^38.0.1",
     "@localazy/strapi-plugin": "^0.1.12",
     "@notum-cz/strapi-plugin-record-locking": "^0.3.0",
     "@palmabit/strapi-app-version": "^1.1.0",
@@ -20,7 +24,7 @@
     "@strapi/plugin-graphql": "^4.5.5",
     "@strapi/plugin-i18n": "4.5.5",
     "@strapi/plugin-seo": "^1.7.7",
-    "@strapi/plugin-users-permissions": "4.5.5",
+    "@strapi/plugin-users-permissions": "4.5.6",
     "@strapi/provider-upload-cloudinary": "^4.5.5",
     "@strapi/strapi": "4.5.5",
     "pg": "8.6.0",

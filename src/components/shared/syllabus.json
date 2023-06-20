@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_syllabi",
+  "info": {
+    "displayName": "Syllabus"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

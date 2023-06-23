@@ -17,7 +17,7 @@
   },
   "attributes": {
     "name": {
-      "type": "string",
+      "type": "text",
       "required": true,
       "pluginOptions": {
         "i18n": {
@@ -238,7 +238,8 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "text",
+      "required": true
     },
     "typeTrainingHeader": {
       "pluginOptions": {
@@ -246,7 +247,8 @@
           "localized": true
         }
       },
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "ourLicenses": {
       "type": "component",

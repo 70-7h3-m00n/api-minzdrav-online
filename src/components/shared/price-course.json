@@ -1,19 +1,22 @@
 {
   "collectionName": "components_shared_price_courses",
   "info": {
-    "displayName": "PriceCourse"
+    "displayName": "PriceCourse",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "price": {
+    "priceRetraining": {
       "type": "decimal",
       "required": true
     },
     "discount": {
-      "type": "decimal"
+      "type": "decimal",
+      "required": true
     },
-    "installmentPlan": {
-      "type": "decimal"
+    "priceQualifications": {
+      "type": "decimal",
+      "required": true
     }
   }
 }

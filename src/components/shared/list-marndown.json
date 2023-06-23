@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_list_marndowns",
   "info": {
-    "displayName": "listMarndown"
+    "displayName": "listMarndown",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,7 +11,8 @@
       "options": {
         "preset": "toolbar"
       },
-      "customField": "plugin::ckeditor5.CKEditor"
+      "customField": "plugin::ckeditor5.CKEditor",
+      "required": true
     }
   }
 }

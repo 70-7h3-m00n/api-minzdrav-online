@@ -1,23 +1,26 @@
 {
   "collectionName": "components_shared_image_markdowns",
   "info": {
-    "displayName": "imageMarkdown"
+    "displayName": "imageMarkdown",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "description": {
       "type": "customField",
       "options": {
         "preset": "toolbar"
       },
-      "customField": "plugin::ckeditor5.CKEditor"
+      "customField": "plugin::ckeditor5.CKEditor",
+      "required": true
     }
   }
 }

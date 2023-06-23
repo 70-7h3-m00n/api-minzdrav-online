@@ -115,7 +115,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "subInfoText": {
       "type": "component",
@@ -125,7 +126,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "description": {
       "type": "customField",
@@ -148,7 +150,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "imageCourse": {
       "type": "media",
@@ -164,7 +167,7 @@
       }
     },
     "startDateTraining": {
-      "type": "string",
+      "type": "text",
       "required": true,
       "default": "Каждое 5 и 20 число",
       "pluginOptions": {
@@ -243,7 +246,7 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "text"
     },
     "ourLicenses": {
       "type": "component",
@@ -277,7 +280,8 @@
           "localized": true
         }
       },
-      "component": "shared.training-content"
+      "component": "shared.training-content",
+      "required": true
     },
     "script": {
       "pluginOptions": {

@@ -17,7 +17,7 @@
   },
   "attributes": {
     "name": {
-      "type": "text",
+      "type": "string",
       "required": true,
       "pluginOptions": {
         "i18n": {
@@ -208,7 +208,7 @@
         }
       },
       "component": "shared.list-text",
-      "required": true
+      "required": false
     },
     "skillList": {
       "type": "component",
@@ -219,7 +219,7 @@
         }
       },
       "component": "shared.list-text",
-      "required": true
+      "required": false
     },
     "listOfSkills": {
       "type": "component",
@@ -230,7 +230,7 @@
         }
       },
       "component": "shared.list-text",
-      "required": true
+      "required": false
     },
     "header": {
       "pluginOptions": {

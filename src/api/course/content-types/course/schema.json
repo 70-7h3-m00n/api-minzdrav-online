@@ -286,6 +286,19 @@
       "required": true
     },
     "script": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "speakers": {
+      "displayName": "Speakers",
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -293,7 +306,7 @@
           "localized": true
         }
       },
-      "component": "shared.list-marndown"
+      "component": "shared.speakers"
     }
   }
 }

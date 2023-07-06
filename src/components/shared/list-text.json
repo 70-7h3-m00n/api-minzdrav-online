@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_list_texts",
+  "info": {
+    "displayName": "ListText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

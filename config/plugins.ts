@@ -23,6 +23,9 @@ module.exports = ({ env }) => ({
   'strapi-google-translator': {
     enabled: false
   },
+  ckeditor5: {
+    enabled: true
+  },
   upload: {
     config: {
       provider: 'cloudinary',

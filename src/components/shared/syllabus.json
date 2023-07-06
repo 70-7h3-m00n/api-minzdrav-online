@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_syllabi",
+  "info": {
+    "displayName": "Syllabus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "customField",
+      "required": true,
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

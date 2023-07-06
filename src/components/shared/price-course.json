@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_price_courses",
+  "info": {
+    "displayName": "PriceCourse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "priceRetraining": {
+      "type": "decimal",
+      "required": true
+    },
+    "discount": {
+      "type": "decimal",
+      "required": true
+    },
+    "priceQualifications": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

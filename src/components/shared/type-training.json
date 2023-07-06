@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_type_trainings",
+  "info": {
+    "displayName": "typeTraining",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "enumeration",
+      "enum": [
+        "training",
+        "professionalRetraining"
+      ]
+    }
+  }
+}

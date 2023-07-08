@@ -11498,10 +11498,20 @@ strapi-plugin-duplicate-button@^1.0.4:
   resolved "https://registry.yarnpkg.com/strapi-plugin-duplicate-button/-/strapi-plugin-duplicate-button-1.0.4.tgz#93d988a6275b6e33155a3d024906aab7f6b66892"
   integrity sha512-cFfvisU25vIMu01qLZJ2FLnhHk6wNfFT0MTqDs4Q8NPlNU7U6e6Rf6THkPJC0WUHxvjJCuERiUgb7MKGjqL31A==
 
+strapi-plugin-multi-select@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-multi-select/-/strapi-plugin-multi-select-1.1.0.tgz#80085ed81b789dc76901bf8cc172de561131afd7"
+  integrity sha512-h8Ar/BwOyjjBd9xPWtmNC/qrcaUNRtmy9Upkr8BOTY5rg3gvkWgVHhaW/YMB7gENUU8esBHoImb4WdrO4NuNOA==
+
 strapi-plugin-notes@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/strapi-plugin-notes/-/strapi-plugin-notes-1.0.1.tgz#5968ce206e1c95936a5fe75fd2612bdc8ec3ae52"
   integrity sha512-0DwuEdLrETNTyI5LKSZ6xWt2U2P3DpplM2bl7ZyEptbccKAUeWrXxxTtHWMjlCWzQie04BiWrNogIIpgAXpHGw==
+
+strapi-plugin-populate-deep@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-populate-deep/-/strapi-plugin-populate-deep-2.0.0.tgz#dd558eaef2fe47583a63536964b46a945e93f555"
+  integrity sha512-IsdXZPjRiOnaczoQaXI6xfxnFqUhR70uW1VCRbY4a3hEmmocpCpIUGx7TiHdNPJOZuDiueTgEIQ4V5XEru9Lvw==
 
 strapi-plugin-publisher@^1.1.4:
   version "1.1.4"
@@ -11512,6 +11522,11 @@ strapi-plugin-todo@^0.0.9:
   version "0.0.9"
   resolved "https://registry.yarnpkg.com/strapi-plugin-todo/-/strapi-plugin-todo-0.0.9.tgz#18beebd0f39bb6f5a87a927fdd57ce11871f76dd"
   integrity sha512-p5nwad6syx/Zg+DUca/Hm3EcXLtY82doSss8ht98a1tmS/4j8xs2/U0ZcGLkWUg73evVFcQaEF+Wvua7tSnLDg==
+
+strapi-plugin-transformer@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-transformer/-/strapi-plugin-transformer-3.1.0.tgz#903d3288d14607e18d4ea51b673665257488f8f0"
+  integrity sha512-wSWntxTeyx+9gTLsR7/rxAcx13PG+AGaLFUHARXu0cZOeULCtLHTgVbGnn0TvzlL/hUq21IKFZRuGF1amsgrzA==
 
 stream-browserify@^3.0.0:
   version "3.0.0"

@@ -26,6 +26,20 @@ module.exports = ({ env }) => ({
   ckeditor5: {
     enabled: true
   },
+  'strapi-plugin-populate-deep': {
+      config: {
+        defaultDepth: 10, // Default is 5
+      }
+    },
+  'transformer': {
+    enabled: true,
+    config: {
+      responseTransforms: {
+        removeAttributesKey: true,
+        removeDataKey: true,
+      },
+    }
+  },
   upload: {
     config: {
       provider: 'cloudinary',

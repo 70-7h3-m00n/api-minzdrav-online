@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_course_seos",
+  "info": {
+    "displayName": "CourseSeo"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

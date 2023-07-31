@@ -250,17 +250,6 @@
       "type": "text",
       "required": true
     },
-    "ourLicenses": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.image-list",
-      "required": true
-    },
     "priceCourse": {
       "displayName": "PriceCourse",
       "type": "component",

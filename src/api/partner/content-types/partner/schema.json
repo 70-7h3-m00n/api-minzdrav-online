@@ -37,16 +37,6 @@
           "localized": false
         }
       }
-    },
-    "slug": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "uid",
-      "targetField": "partner",
-      "required": true
     }
   }
 }

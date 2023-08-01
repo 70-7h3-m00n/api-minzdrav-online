@@ -166,16 +166,6 @@
         }
       }
     },
-    "startDateTraining": {
-      "type": "text",
-      "required": true,
-      "default": "Каждое 5 и 20 число",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "studyingTime": {
       "type": "string",
       "required": true,

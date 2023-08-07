@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_related_courses",
+  "info": {
+    "displayName": "RelatedCourses",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -298,6 +298,17 @@
       },
       "component": "shared.course-seo",
       "required": true
+    },
+    "relatedCourses": {
+      "displayName": "RelatedCourses",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.related-courses"
     }
   }
 }

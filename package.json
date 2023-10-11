@@ -7,8 +7,7 @@
     "dev": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "generateTypings": "yarn strapi ts:generate-types --verbose #optional flag"
+    "strapi": "strapi"
   },
   "devDependencies": {
     "@gtomato/ckeditor5-strapi-upload-plugin": "^1.0.0"
@@ -34,8 +33,8 @@
     "strapi-plugin-notes": "^1.0.1",
     "strapi-plugin-populate-deep": "^2.0.0",
     "strapi-plugin-publisher": "^1.1.4",
-    "strapi-plugin-todo": "^0.0.9",
-    "strapi-plugin-transformer": "^3.1.0"
+    "strapi-plugin-transformer": "^3.1.0",
+    "strapi-plugin-todo": "^0.0.9"
   },
   "author": {
     "name": "70-7h3-m00n"

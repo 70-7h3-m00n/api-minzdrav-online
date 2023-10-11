@@ -1,0 +1,125 @@
+{
+  "kind": "collectionType",
+  "collectionName": "webinars",
+  "info": {
+    "singularName": "webinar",
+    "pluralName": "webinars",
+    "displayName": "Webinars",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "startTime": {
+      "type": "datetime",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "speaker": {
+      "type": "string",
+      "required": true
+    },
+    "imageSpeaker": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "header": {
+      "type": "text",
+      "required": true
+    },
+    "professionSpeaker": {
+      "type": "string",
+      "required": true
+    },
+    "subHeader": {
+      "type": "text",
+      "required": true
+    },
+    "descriptionWebinar": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "availability": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "listInfoWebinar": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-text"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Медицина",
+        "Диетология",
+        "Психология"
+      ],
+      "required": true
+    },
+    "listWebinarProgram": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-text",
+      "required": true
+    },
+    "listWhichProfessions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-text",
+      "required": true
+    },
+    "listDuration": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-text",
+      "required": true
+    },
+    "listTeacherCharacteristics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-text",
+      "required": true
+    },
+    "subDescription": {
+      "type": "text",
+      "required": true
+    },
+    "FAQ": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.syllabus",
+      "required": true
+    },
+    "formDescription": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

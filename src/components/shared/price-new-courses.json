@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_price_new_courses",
+  "info": {
+    "displayName": "PriceNewCourses",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fullPrice": {
+      "type": "string",
+      "required": false
+    },
+    "installmentPlan": {
+      "type": "string",
+      "required": false
+    },
+    "discountThree": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "tenDiscount": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    }
+  }
+}

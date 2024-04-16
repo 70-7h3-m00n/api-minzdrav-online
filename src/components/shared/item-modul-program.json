@@ -1,14 +1,17 @@
 {
-  "collectionName": "components_shared_syllabi",
+  "collectionName": "components_shared_item_modul_programs",
   "info": {
-    "displayName": "Syllabus",
+    "displayName": "ItemModulProgram",
     "description": ""
   },
   "options": {},
   "attributes": {
     "header": {
-      "type": "text",
+      "type": "string",
       "required": false
+    },
+    "title": {
+      "type": "string"
     },
     "description": {
       "type": "customField",
@@ -17,6 +20,12 @@
         "preset": "toolbar"
       },
       "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "speakers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.speakers",
+      "required": false
     }
   }
 }

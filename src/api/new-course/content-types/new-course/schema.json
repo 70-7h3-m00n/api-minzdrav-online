@@ -1,0 +1,152 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_courses",
+  "info": {
+    "singularName": "new-course",
+    "pluralName": "new-courses",
+    "displayName": "NewCourse",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "pathCourse",
+      "required": true
+    },
+    "pathCourse": {
+      "type": "string",
+      "required": true
+    },
+    "durationTraining": {
+      "type": "integer",
+      "required": false
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Онлайн",
+        "Очно",
+        "В записи"
+      ],
+      "required": false,
+      "default": "Онлайн"
+    },
+    "aboutTheProgram": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "required": false,
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "listWhoProgram": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.syllabus",
+      "required": false
+    },
+    "listWhatYouLearn": {
+      "type": "component",
+      "repeatable": true,
+      "required": false,
+      "component": "shared.list-text"
+    },
+    "listBasicSkills": {
+      "displayName": "ItemModulProgram",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.item-modul-program"
+    },
+    "listAdditionalCourses": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.item-modul-program"
+    },
+    "listLearningPath": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-list",
+      "required": false
+    },
+    "listTrainingWillHelp": {
+      "type": "component",
+      "repeatable": true,
+      "required": false,
+      "component": "shared.speakers"
+    },
+    "listSpeakers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.speakers",
+      "required": false
+    },
+    "listFormatCost": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-text"
+    },
+    "priceNewCourse": {
+      "displayName": "PriceCourses",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.price-new-courses",
+      "required": false
+    },
+    "resumeTraining": {
+      "displayName": "ResumeTraining",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.resume-training",
+      "required": false
+    },
+    "listReviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.course-seo"
+    },
+    "listItemFAQ": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.course-seo"
+    },
+    "typeCourse": {
+      "type": "enumeration",
+      "enum": [
+        "Медицина",
+        "Психология",
+        "Диетология"
+      ],
+      "required": true
+    },
+    "categories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-text",
+      "required": true
+    },
+    "programs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-text",
+      "required": true
+    },
+    "typeTraining": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.type-training",
+      "required": true
+    },
+    "color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}

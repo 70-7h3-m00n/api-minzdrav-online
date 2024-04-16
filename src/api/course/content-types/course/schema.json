@@ -33,7 +33,7 @@
       },
       "type": "uid",
       "targetField": "name",
-      "required": false
+      "required": true
     },
     "pathCourse": {
       "pluginOptions": {

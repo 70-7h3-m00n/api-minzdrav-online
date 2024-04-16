@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_resume_trainings",
+  "info": {
+    "displayName": "ResumeTraining"
+  },
+  "options": {},
+  "attributes": {
+    "post": {
+      "type": "string"
+    },
+    "salary": {
+      "type": "string"
+    },
+    "listCompetencies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-text"
+    },
+    "nameDiploma": {
+      "type": "string"
+    }
+  }
+}
